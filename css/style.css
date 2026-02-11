@@ -1,0 +1,28 @@
+@import url(./normalize.css);
+
+
+html,
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    background: #3399CC;
+    color: white;
+    border: 15px solid #2B81AC;
+    min-height: 100vh;
+    cursor: url(../assets/img/cursor.svg), auto;
+}
+
+
+.title {
+    font-size: 21px;
+    font-weight: normal;
+    display: inline-block;        
+    margin: 66px 4px 38px 135px;
+}
+
+.header_icon {
+    display: inline-block;
+    vertical-align: text-bottom;    
+    width: 35px;
+    height: 34px;    
+}

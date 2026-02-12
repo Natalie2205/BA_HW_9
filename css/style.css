@@ -4,7 +4,6 @@
 html,
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
     background: #3399CC;
     color: white;
     border: 15px solid #2B81AC;
@@ -12,17 +11,174 @@ body {
     cursor: url(../assets/img/cursor.svg), auto;
 }
 
+.header {
+    width: 1170px;
+    margin: 0 auto;
+}
 
 .title {
     font-size: 21px;
     font-weight: normal;
-    display: inline-block;        
-    margin: 66px 4px 38px 135px;
+    display: inline-block;
+    margin-top: 66px;
+    margin-right: 4px;
+    margin-bottom: 38px;
 }
 
 .header_icon {
-    display: inline-block;
-    vertical-align: text-bottom;    
+    vertical-align: text-bottom;
     width: 35px;
-    height: 34px;    
+    height: 34px;
+}
+
+.cities_list {
+    list-style: none;
+    text-align: center;
+    background: white;
+    width: 1170px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 2px;
+    padding: 0;
+    border: 2px solid white;
+}
+
+.list_item {
+    font-size: 22px;
+    display: inline-block;
+    opacity: 70%;
+    transition: all .1s ease-in;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.list_item:hover {
+    opacity: 100%;
+}
+
+.lisbon,
+.san-francisco {
+    width: calc(50% - 2px);
+}
+
+.sydney {
+    width: calc(100% - 4px);
+    
+}
+
+.paris,
+.belgrade,
+.venice,
+.tel-avive,
+.cair,
+.new-york,
+.new-delhi,
+.tokyo {
+    width: calc(25% - 1px);
+}
+
+
+.lisbon {
+    background: #3399CC;
+}
+
+.paris {
+    background: #33CCCC;
+}
+
+.belgrade {
+    background: #996699;
+}
+
+.venice {
+    background: #C24747;
+}
+
+.tel-avive {
+    background: #E2674A;
+}
+
+.cair {
+    background: #FFCC66;
+}
+
+.new-york {
+    background: #99CC99;
+}
+
+.new-delhi {
+    background: #669999;
+}
+
+.san-francisco {
+    background: #CC6699;
+}
+
+.tokyo {
+    background: #339966;
+}
+
+.sydney {
+    background: #666699;
+}
+
+.list_item_name {
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+
+.list_temperature {
+    
+    margin-top: 19px;
+    margin-bottom: 39px;
+    margin-right: 13px;
+}
+
+.list_temperature,
+.list_icon {
+    opacity: 70%;
+    display: inline-block;
+}
+
+.list_icon {
+    height: 61px;
+    vertical-align: middle;
+}
+
+.lisbon_icon,
+.cair_icon {
+    width: 47px;
+}
+
+.paris_icon,
+.tel-avive_icon {
+    width: 48px;
+}
+
+.belgrade_icon {
+    width: 59px;
+}
+
+.venice_icon {
+    width: 49px;
+}
+
+.new-york_icon {
+    width: 60px;
+}
+
+.new-delhi_icon {
+    width: 46px;
+}
+
+.san-francisco_icon {
+    width: 53px;
+}
+
+.tokyo_icon {
+    width: 32px;
+}
+
+.sydney_icon {
+    width: 37px;
 }
